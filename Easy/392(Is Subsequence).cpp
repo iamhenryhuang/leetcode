@@ -14,3 +14,6 @@ public:
         return s_index == s.size();
     }
 };
+
+// solution
+開兩個變數s_index, t_index去紀錄s跟t的相對位置，最後判斷s_index是否走到s的最後面
